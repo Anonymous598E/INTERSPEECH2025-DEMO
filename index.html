@@ -3,109 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Efficient and Direct Duplex Modeling for Speech-to-Speech Language Model - Demo</title>
+    <title>Efficient and Direct Duplex Modeling for Speech-to-Speech Language Model</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .container { max-width: 900px; margin: auto; }
-        .section-title { font-size: 1.5rem; font-weight: bold; margin-top: 30px; }
-        .audio-container { margin-bottom: 20px; }
-    </style>
 </head>
 <body>
-
-    <div class="container">
-        <!-- Paper Title -->
+    <div class="container mt-4">
         <h1 class="text-center">Efficient and Direct Duplex Modeling for Speech-to-Speech Language Model</h1>
-        <h5 class="text-center">Anonymous Submission - INTERSPEECH 2025</h5>
+        <h5 class="text-center">Anonymous Submission, INTERSPEECH 2025</h5>
         
-        <!-- Abstract Section -->
-        <div class="section-title">Abstract</div>
-        <p>
-            [Placeholder: Insert your abstract here.]
-        </p>
-
-        <!-- Listening Examples -->
-        <div class="section-title">Listening Examples</div>
-        <p>
-            Below are examples demonstrating our model's performance. Click to listen:
-        </p>
+        <hr>
         
-        <div class="audio-container">
-            <strong>Example 1: Input Speech</strong>
-            <audio controls>
-                <source src="audio/example1_input.wav" type="audio/wav">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
+        <section id="abstract">
+            <h2>Abstract</h2>
+            <p>[Your abstract content goes here. You can summarize your paper in a few sentences.]</p>
+        </section>
         
-        <div class="audio-container">
-            <strong>Example 1: Model Output</strong>
-            <audio controls>
-                <source src="audio/example1_output.wav" type="audio/wav">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-
-        <div class="audio-container">
-            <strong>Example 2: Input Speech</strong>
-            <audio controls>
-                <source src="audio/example2_input.wav" type="audio/wav">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-
-        <div class="audio-container">
-            <strong>Example 2: Model Output</strong>
-            <audio controls>
-                <source src="audio/example2_output.wav" type="audio/wav">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-
-        <!-- Comparison Table -->
-        <div class="section-title">Comparison Table</div>
-        <p>
-            A comparison between our model and existing baselines.
-        </p>
-        <table class="table table-bordered">
-            <thead class="table-light">
-                <tr>
-                    <th>Model</th>
-                    <th>WER (%)</th>
-                    <th>Latency (ms)</th>
-                    <th>Speech Naturalness (MOS)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Baseline 1</td>
-                    <td>10.5</td>
-                    <td>250</td>
-                    <td>3.8</td>
-                </tr>
-                <tr>
-                    <td>Baseline 2</td>
-                    <td>8.9</td>
-                    <td>300</td>
-                    <td>4.1</td>
-                </tr>
-                <tr>
-                    <td><strong>Our Model</strong></td>
-                    <td><strong>7.2</strong></td>
-                    <td><strong>180</strong></td>
-                    <td><strong>4.5</strong></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <!-- Citation & References -->
-        <div class="section-title">References & Citation</div>
-        <p>
-            If you use our model in your work, please cite it as follows:
-        </p>
-        <pre>
-@article{anonymous2025duplex,
+        <hr>
+        
+        <section id="listening-examples">
+            <h2>Listening Examples</h2>
+            <p>Below are some speech-to-speech conversion examples from our model.</p>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Example 1</h4>
+                    <p>Original Speech:</p>
+                    <audio controls>
+                        <source src="example1_original.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>Model Output:</p>
+                    <audio controls>
+                        <source src="example1_output.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="col-md-6">
+                    <h4>Example 2</h4>
+                    <p>Original Speech:</p>
+                    <audio controls>
+                        <source src="example2_original.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>Model Output:</p>
+                    <audio controls>
+                        <source src="example2_output.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </section>
+        
+        <hr>
+        
+        <section id="citation">
+            <h2>BibTeX Citation</h2>
+            <pre>
+@inproceedings{anonymous2025duplex,
   title={Efficient and Direct Duplex Modeling for Speech-to-Speech Language Model},
-  author={Anonymous Submission},
-  journal={INTERS
+  author={Anonymous},
+  booktitle={INTERSPEECH},
+  year={2025}
+}
+            </pre>
+        </section>
+        
+        <hr>
+        
+        <footer class="text-center">
+            <p>&copy; 2025 Anonymous Submission</p>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
